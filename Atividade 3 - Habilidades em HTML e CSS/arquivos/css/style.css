@@ -1,0 +1,183 @@
+#widget {
+  font-family: "avenirroman", Arial, sans-serif;
+  max-width: 1280px;
+  margin: 20px auto 10px auto;
+  position: relative;
+  overflow: hidden;
+}
+#widget .frame .first-item {
+  float: left;
+  width: 25%;
+  padding: 20px auto 10px auto;
+}
+#widget .frame .first-item .title {
+  color: #444;
+  font-size: 25px;
+  position: relative;
+  margin: 0 0 10px 10px;
+  padding-bottom: 5px;
+}
+#widget .frame .first-item .title:after {
+  background: #fb7497;
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+#widget .frame .first-item .percent-text {
+  font-size: 13px;
+  color: #FB7497;
+  text-transform: uppercase;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+#widget .frame .first-item .box {
+  margin: 5px 5px 10px 5px;
+  padding: 10px;
+}
+#widget .frame .first-item .box .product {
+  position: relative;
+}
+#widget .frame .first-item .box .product .image-product {
+  width: 100%;
+}
+#widget .frame .first-item .box .product .image-recently {
+  border: 1px solid #fb7397;
+}
+#widget .frame .first-item .box .infos .colors-product {
+  height: 14px;
+  width: 32px;
+  border: 1px solid black;
+  margin-left: 2px;
+  margin-top: 4px;
+}
+#widget .frame .first-item .box .infos .colors-product .carousel-colors {
+  height: 12px;
+  width: 30px;
+  margin: 1px;
+}
+#widget .frame .first-item .box .infos .colors-product .biege {
+  background-color: #F4CE9D;
+}
+#widget .frame .first-item .box .infos .product-name .name {
+  color: #444;
+  display: block;
+  margin: 15px 0 5px 0;
+  font-size: 13px;
+  line-height: 17px;
+}
+#widget .frame .first-item .box .infos .product-name a {
+  outline: none;
+  text-decoration: none;
+}
+#widget .frame .first-item .box .infos .prices a {
+  color: #444;
+  font-size: 18px;
+  font-family: "avenirheavy", Arial, sans-serif;
+  text-decoration: none;
+}
+#widget .frame .first-item .box:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#widget .frame .carousel {
+  float: right;
+  width: 75%;
+  padding: 20px auto 10px auto;
+}
+#widget .frame .carousel .title {
+  color: #444;
+  font-size: 25px;
+  position: relative;
+  margin: 0 0 10px 10px;
+  padding-bottom: 5px;
+}
+#widget .frame .carousel .percent-text {
+  font-size: 13px;
+  color: #FB7497;
+  text-transform: uppercase;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+#widget .frame .carousel .box-carousel {
+  width: 32%;
+  float: left;
+}
+#widget .frame .carousel .box {
+  margin: 5px auto 10px auto;
+  padding: 10px;
+}
+#widget .frame .carousel .box .product {
+  position: relative;
+}
+#widget .frame .carousel .box .product .image-product {
+  width: 100%;
+}
+#widget .frame .carousel .box .product .image-recently {
+  border: 1px solid #fb7397;
+}
+#widget .frame .carousel .box .infos .colors-product {
+  height: 14px;
+  width: 32px;
+  margin-left: 2px;
+  border: 1px solid black;
+  margin-top: 4px;
+}
+#widget .frame .carousel .box .infos .colors-product .carousel-colors {
+  height: 12px;
+  width: 30px;
+  margin: 1px;
+}
+#widget .frame .carousel .box .infos .colors-product .biege {
+  background-color: #F4CE9D;
+}
+#widget .frame .carousel .box .infos .colors-product .white {
+  background-color: white;
+}
+#widget .frame .carousel .box .infos .product-name .name {
+  color: #444;
+  display: block;
+  margin: 15px 0 5px 0;
+  font-size: 13px;
+  line-height: 17px;
+}
+#widget .frame .carousel .box .infos .product-name a {
+  outline: none;
+  text-decoration: none;
+}
+#widget .frame .carousel .box .infos .prices a {
+  color: #444;
+  font-size: 18px;
+  font-family: "avenirheavy", Arial, sans-serif;
+  text-decoration: none;
+}
+#widget .frame .carousel .box:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  #widget .frame .first-item {
+    float: left;
+    width: 100%;
+    padding: 20px auto 10px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  #widget .frame .carousel {
+    float: right;
+    width: 100%;
+    padding: 20px auto 10px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  #widget .frame .carousel .box-carousel {
+    width: 100%;
+    float: left;
+    display: table;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
